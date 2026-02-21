@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+</head>
+
+<body>
+
+<h2>Register Page</h2>
+
+<form action="login.html">
+
+Name :
+<input type="text" required><br><br>
+
+Email :
+<input type="email"
+       required
+       pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+       title="Please enter a valid email address (must include @ and domain)">
+<br><br>
+
+Phone Number :
+<input type="tel"
+       required
+       minlength="10"
+       maxlength="10"
+       pattern="[0-9]{10}"
+       title="Phone number must be exactly 10 digits">
+<br><br>
+
+
+Password :
+<input type="password"
+       id="password"
+       required
+       pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
+       title="Password must be at least 8 characters long, include uppercase, lowercase, number, and special character.">
+<br><br>
+
+Confirm Password :
+<input type="password"
+       id="confirm_password"
+       required>
+<br><br>
+
+<input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
