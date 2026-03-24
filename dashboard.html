@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-light">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+  <div class="container-fluid">
+    <span class="navbar-brand fw-bold">My Dashboard</span>
+
+    <div class="ms-auto">
+      <a href="index.html" class="btn btn-danger">
+        <i class="bi bi-box-arrow-right"></i> Logout
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container mt-5">
+
+  <!-- Welcome Section -->
+  <div class="mb-4">
+    <h3 class="fw-bold" style="color: black;">Welcome back !</h3>
+    <p class="text-muted">Here’s your dashboard overview.</p>
+  </div>
+
+  <!-- Dashboard Cards -->
+  <div class="row g-4">
+
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card shadow border-0">
+        <div class="card-body text-center">
+          <i class="bi bi-person-circle fs-1 text-primary"></i>
+          <h5 class="mt-3">Profile</h5>
+          <p class="text-muted">Manage your account</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card shadow border-0">
+        <div class="card-body text-center">
+          <i class="bi bi-bar-chart fs-1 text-success"></i>
+          <h5 class="mt-3">Reports</h5>
+          <p class="text-muted">View analytics</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card shadow border-0">
+        <div class="card-body text-center">
+          <i class="bi bi-gear fs-1 text-warning"></i>
+          <h5 class="mt-3">Settings</h5>
+          <p class="text-muted">Customize preferences</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
